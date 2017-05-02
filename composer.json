@@ -1,0 +1,20 @@
+{
+  "description": "A node references editor that uses two side-by-side lists, useful for dealing with nodes with large amounts of references",
+  "type": "neos-package",
+  "name": "psit/referenceseditor",
+  "require": {
+    "neos/neos": "~3.0"
+  },
+  "license": "MIT",
+  "autoload": {
+    "psr-0": {
+      "PSIT\\ReferencesEditor": "Classes/"
+    }
+  },
+  "extra": {
+    "neos": {
+      "package-key": "PSIT.ReferencesEditor"
+    }
+  }
+
+}
